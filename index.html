@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- main css-->
+  <link rel="stylesheet" href="css/form.css">
+
+    <title>Document</title>
+   
+</head>
+<body>
+  
+    <form id="form">
+        <div class="nav">
+        <img src="./img/logo12_14_23538.jpeg" width="50" height="50" alt="img">
+        
+        <h2>Kidara Concept Survey Form</h2>
+
+
+        </div>
+ <br>
+
+        <div class="set">
+        <div class="form-control1">
+            <label for="name" id="label-name">First Name</label>
+            <input type="text"id="name" 
+            placeholder="Enter your First Name" required />
+        </div>
+        <div class="form-control2">
+            <label for="name" id="label-name">Last Name</label>
+            <input type="text"id="name"
+             placeholder="Enter your Last Name" required />
+        </div>
+        </div>
+        <div class="form-control">
+            <label for="date" id="label-date">Date:</label>
+
+            <input type="date" id="start" name="trip-start"
+                   value="2022-02-o2"
+                   min="2000-01-01" max="2050-12-31"required>
+        </div>
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+ 
+
+            <input type="email"
+                   id="email"
+                   placeholder="Enter your email"required />
+        </div>
+  
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Which option best describes you?
+            </label>
+             
+    
+            <select name="role" id="role">
+                <option value="governtment worker">Government Worker</option>
+                <option value="private worker">Private Worker</option>
+
+            </select>
+        </div>
+  
+        <div class="form-control">
+            <label>
+                Do you feel valuable at work?
+            </label>
+ 
+        
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Yes</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">No</input>
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label for="comment">
+                If No, Please Explain
+            </label>
+ 
+
+            <textarea name="comment" id="comment"
+                placeholder="type here.....">
+            </textarea>
+        </div><br><br>
+
+        <div class="form-control">
+            <label>
+                Do you have the resource you need to perfom your job well?
+            </label>
+ 
+        
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Yes</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">No</input>
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label for="comment">
+                If No, Please Explain
+            </label>
+ 
+
+            <textarea name="comment" id="comment"
+                placeholder="type here.....">
+            </textarea>
+        </div><br><br>
+
+        <div class="form-control">
+            <label>
+                Does your job cause you stress or anxiety?
+            </label>
+ 
+        
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Yes</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">No</input>
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label for="comment">
+                If Yes, Please Explain
+            </label>
+ 
+
+            <textarea name="comment" id="comment"
+                placeholder="type here.....">
+            </textarea>
+        </div><br><br>
+
+        <div class="form-control">
+            <label>What skills do you have?
+                <small>(Check all that apply)</small>
+            </label>
+            
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">Farming</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">Event Planning</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">Web Design</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Frontend Programing</input></label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">Backend Programing</input></label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">Moderator</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Technical Writting</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Data Analysis</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Other</input></label>
+        </div><br>
+
+        <div class="form-control">
+            <label for="comment">
+                If other, List Below
+            </label>
+ 
+            <textarea name="comment" id="comment"
+                placeholder="type here.....">
+            </textarea>
+        </div><br><br>
+  
+        <div class="form-control">
+            <label for="comment">
+                Please Provide Any Additional Feedback.
+            </label>
+ 
+            
+            <textarea name="comment" id="comment"
+                placeholder="Enter your comment here">
+            </textarea>
+        </div>
+  
+    
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+</body>
+</html>
