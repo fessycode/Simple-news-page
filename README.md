@@ -1,1 +1,1 @@
-# Simple-news-page..
+# Simple-news-page.
